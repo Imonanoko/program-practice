@@ -1,0 +1,17 @@
+.MODEL small
+.data
+.code
+Main PROC
+	mov DI,0100H
+	MOV [DI],01H
+	MOV [DI+1H],01H
+	MOV CL,0BH
+	ADD DI,2
+A10:	
+	MOV AX,[DI-2]
+	ADD AX,[DI-1]
+	MOV [DI],AX
+	INC DI
+	LOOP A10	
+Main ENDP
+END Main
