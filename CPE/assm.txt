@@ -1,0 +1,7 @@
+.model flat,stdcall
+.data
+HEADNG1	BYte	  'S10350136=>'
+Len  		EQU    	 $ - HEADNG1 - 2
+HEADNG2	Byte	 Len DUP (?), '$’ 
+
+.code
