@@ -1,0 +1,20 @@
+from tkinter import*
+def function():
+    x=eval(y.get())
+    z=x**3
+    E.set(z)
+window=Tk()
+window.title('Entry')
+y=StringVar()
+y.set('Enter a number')
+x=Label(window,text='count cube',fg='blue')
+x.grid(padx=10,pady=15,row=0,column=0,sticky=E)
+w=Entry(window,textvariable=y)
+w.grid(padx=10,pady=15,row=0,column=1,sticky=W)
+z=Button(window,text='push',command=function)
+z.grid(padx=10,pady=10,row=1,column=0,sticky=E)
+E=StringVar()
+E.set('')
+EE=Label(window,textvariable=E,fg='orange')
+EE.grid(padx=10,pady=10,row=1,column=1,sticky=W)
+window.mainloop()

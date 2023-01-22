@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./PyAutoGUI-0.9.33"
+    ]
+}

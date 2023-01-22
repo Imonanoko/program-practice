@@ -1,0 +1,6 @@
+Item                Price($)  
+Colt Peacemaker     12.20     
+Holster             2.00      
+Levi Strauss jeans  1.35      
+Saddle              32.0        
+Stetson             10.00     
